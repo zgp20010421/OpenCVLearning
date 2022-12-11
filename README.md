@@ -27,6 +27,7 @@ D:\APP\OpenCV\opencv\build\bin
 
 4.点击新建，将OpenCV路径下的bin目录 Copy
 
-![环境变量](https://user-images.githubusercontent.com/99727314/206913150-b3544f0c-3c87-4d5f-8ebe-71fa72bb62e6.png)
+![path](https://user-images.githubusercontent.com/99727314/206913235-dfee4543-00f8-4f9b-ab8a-2ea507ae82be.png)
+
 
 
