@@ -1,2 +1,2 @@
 # OpenCV
-基于C++的OpenCV入门学习
+基于C++语言的OpenCV入门学习
