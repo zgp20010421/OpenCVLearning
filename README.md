@@ -12,17 +12,21 @@
 下载后安装即可，下载时速度可能比较慢。
 
 三、Visual Studio配置OpenCV
+
 1.找到自己电脑 OpenCV安装的路径,找到bin目录
 D:\APP\OpenCV\opencv\build\bin
 ![OpenCV的bin目录](https://user-images.githubusercontent.com/99727314/206912837-89ace0fc-12bc-4716-9c29-b80b02f6315a.png)
 
 2.找到系统属性点击环境变量
+
 ![系统属性](https://user-images.githubusercontent.com/99727314/206912887-ffa32da4-fa02-4ff2-9094-0e7627c0bdfd.png)
 
 3.点击用户变量中的 Path
+
 ![环境变量](https://user-images.githubusercontent.com/99727314/206913061-95c120fd-80df-4052-9e51-61e907c195df.png)
 
 4.点击新建，将OpenCV路径下的bin目录 Copy
+
 ![环境变量](https://user-images.githubusercontent.com/99727314/206913150-b3544f0c-3c87-4d5f-8ebe-71fa72bb62e6.png)
 
 
