@@ -15,9 +15,10 @@
 
 三、配置OpenCV环境
 
-1.找到自己电脑 OpenCV安装的路径,找到bin目录进行 Copy（复制）D:\APP\OpenCV\opencv\build\bin
+1.找到自己电脑 OpenCV安装的路径,找到bin目录进行 Copy（复制）D:\APP\OpenCV\opencv\build\x64\vc15\lib
 
-![OpenCV的bin目录](https://user-images.githubusercontent.com/99727314/206912837-89ace0fc-12bc-4716-9c29-b80b02f6315a.png)
+![OpenCV的bin目录](https://user-images.githubusercontent.com/99727314/206951488-c0b3ca46-9eba-49dc-9cce-55901ab56d98.png)
+
 
 2.找到系统属性点击环境变量
 
@@ -29,7 +30,8 @@
 
 4.点击新建，将OpenCV路径下的bin目录 Paste（粘贴）,之后点击确定，确定，确定即可！
 
-![path](https://user-images.githubusercontent.com/99727314/206913235-dfee4543-00f8-4f9b-ab8a-2ea507ae82be.png)
+![path](https://user-images.githubusercontent.com/99727314/206951555-760e1b22-3be3-43b4-af66-79ff6895bcde.png)
+
 
 四、Visual Studio配置OpenCV
 
@@ -54,4 +56,46 @@
 4.项目创建好，将x86改为x64，找到项目名称
 
 ![项目创建好的界面](https://user-images.githubusercontent.com/99727314/206946619-d7464194-d753-4063-b9cc-01967ebd213f.png)
+
+5.鼠标右击项目名称，找属性
+
+![找到属性](https://user-images.githubusercontent.com/99727314/206949655-9be63826-e252-495f-98c8-ec8c8f6ce984.png)
+
+6.点击属性，找到 VC++目录，右侧的包含目录和库目录
+
+![属性界面](https://user-images.githubusercontent.com/99727314/206949780-7001c5c2-f518-43e0-ba7f-453370a92d69.png)
+
+7.配置包含目录，新建一行，找OpenCV的以下目录进行添加
+
+D:\APP\OpenCV\opencv\build\include
+
+D:\APP\OpenCV\opencv\build\include\opencv2
+
+![包含目录配置](https://user-images.githubusercontent.com/99727314/206950203-298b0527-70f0-4e59-b448-99346be35450.png)
+
+8.配置库目录，同理，找OpenCV中的以下目录进行添加
+
+D:\APP\OpenCV\opencv\build\x64\vc15\lib
+
+![库目录配置](https://user-images.githubusercontent.com/99727314/206950553-26dd3cfc-0b59-4e9b-9f90-aaadad7ff9ce.png)
+
+配置好的界面
+
+![库和包含目录配置好的界面](https://user-images.githubusercontent.com/99727314/206950607-5f73dd1a-1e32-48a1-9df1-00436a98afd7.png)
+
+9.找到链接器的输入，附加依赖项
+
+![找到链接器](https://user-images.githubusercontent.com/99727314/206950749-8d2035e9-d1bc-44db-b197-afd9faa18ec1.png)
+
+10.找到OpenCV目录 D:\APP\OpenCV\opencv\build\x64\vc15\lib 下的 opencv_world455d.lib 文件
+
+![lib](https://user-images.githubusercontent.com/99727314/206950948-b1f2c6d0-799e-4ee9-9e36-8e099ee3184c.png)
+
+11.复制 opencv_world455d.lib 的全名称，进行贴贴，之后确定，确定！
+
+![链接器配置](https://user-images.githubusercontent.com/99727314/206951247-c0780172-4fb7-4d3f-946f-9749d1457def.png)
+
+12.以上都配置好，恭喜你！！！，OpenCV 已配置好 ，请把你的电脑重新开机，🙂。
+
+
 
