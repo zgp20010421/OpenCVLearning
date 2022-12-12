@@ -96,7 +96,7 @@ D:\APP\OpenCV\opencv\build\x64\vc15\lib
 
 ![链接器配置](https://user-images.githubusercontent.com/99727314/206951247-c0780172-4fb7-4d3f-946f-9749d1457def.png)
 
-12.以上都配置好，恭喜你！！！，OpenCV 已配置好 ，请把你的电脑重新开机，🙂。
+12.以上都配置好，恭喜你！！！，OpenCV 已配置好 ，请把你的电脑重新开机，进入到 OpenCV的世界 🙂。
 
 
 
