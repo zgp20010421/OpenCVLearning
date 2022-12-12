@@ -85,7 +85,8 @@ D:\APP\OpenCV\opencv\build\x64\vc15\lib
 
 9.找到链接器的输入，附加依赖项
 
-![找到链接器](https://user-images.githubusercontent.com/99727314/206950749-8d2035e9-d1bc-44db-b197-afd9faa18ec1.png)
+![找到链接器](https://user-images.githubusercontent.com/99727314/206952178-9517dcff-927b-487f-a205-6ee849a99df9.png)
+
 
 10.找到OpenCV目录 D:\APP\OpenCV\opencv\build\x64\vc15\lib 下的 opencv_world455d.lib 文件
 
