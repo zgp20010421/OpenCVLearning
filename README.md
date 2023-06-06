@@ -15,7 +15,7 @@
 
 三、配置OpenCV环境
 
-1.找到自己电脑 OpenCV安装的路径,找到bin目录进行 Copy（复制）D:\APP\OpenCV\opencv\build\x64\vc15\lib
+1.找到自己电脑 OpenCV安装的路径,找到bin目录进行 Copy（复制）D:\APP\OpenCV\opencv\build\x64\vc15\bin
 
 ![OpenCV的bin目录](https://user-images.githubusercontent.com/99727314/206951488-c0b3ca46-9eba-49dc-9cce-55901ab56d98.png)
 
@@ -44,14 +44,14 @@
 
 ![工作负载](https://user-images.githubusercontent.com/99727314/206946377-37240b1a-e980-4abc-bef9-8c9991985cd1.png)
 
-3.创建一个新项目OpenCVLearning
+3.创建一个新项目项目模板为：Windows 桌面向导
+
+![创建新项目](https://user-images.githubusercontent.com/99727314/206946512-5637039c-d219-4080-9b13-10e878b7dd19.png)
+
+项目名称为OpenCVLearning
 
 ![配置新项目](https://user-images.githubusercontent.com/99727314/206946528-ea914d27-47cd-45f9-8df7-a09391c7a0b5.png)
 
-
-项目模板为：Windows 桌面向导
-
-![创建新项目](https://user-images.githubusercontent.com/99727314/206946512-5637039c-d219-4080-9b13-10e878b7dd19.png)
 
 4.项目创建好，将x86改为x64，找到项目名称
 
